@@ -1,0 +1,19 @@
+{
+    "validUser": {
+        "title": "Mr",
+        "firstName": "Jenny",
+        "lastName": "Well",
+        "password": "Password123",
+        "email": "placeholder@example.com",
+        "postcode": "SW1A 1AA",
+        "phoneNumber": "07433878766"
+    },
+    "invalidUser": {
+        "title": "",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "postcode": ""
+    }
+}
