@@ -28,34 +28,45 @@ This project contains automated test scripts for an e-commerce application, focu
 ```
 
 **Setup Instructions**
-*Prerequisites*
--Node.js and npm (Node Package Manager)
--Git
--A GitHub account
+
+**Prerequisites**
+- Node.js and npm (Node Package Manager)
+- Git
+- A GitHub account
 
 **Running the Tests**
-*Running Tests Locally*
+
+**Running Tests Locally**
+
 You can run the Cypress tests in interactive mode or headless mode.
 
--Interactive Mode:  npx cypress open
+**Interactive Mode:**  npx cypress open
+
 This command opens the Cypress Test Runner, where you can select and run individual test files.
 
--Headless Mode:  npx cypress run
+**Headless Mode:**  npx cypress run
+
 This command runs all tests in headless mode, which is useful for CI/CD pipelines.
 
--Running Specific Tests
+**Running Specific Tests**
+
 To run a specific test file, you can specify the path to the test file:  npx cypress run --spec "cypress/e2e/registration.spec.js"
 
-Custom Commands
+**Custom Commands**
+
 This project includes custom Cypress commands to simplify test scripts and improve reusability. Custom commands are defined in the cypress/support/commands.js file.
 
-Test Data Management
+**Test Data Management**
+
 Test data is managed using JSON fixtures and factory methods for generating dynamic data. Fixtures are stored in the cypress/fixtures directory.
 
-Continuous Integration
+**Continuous Integration**
+
 To integrate with CI/CD pipelines, you can use tools like GitHub Actions, Jenkins, or GitLab CI. Below is an example configuration for GitHub Actions.
 
-Conclusion
+**Conclusion**
+
 This project demonstrates a robust and maintainable approach to test automation using Cypress. By following best practices in test data management, custom commands, and the Page Object Model, this framework is designed to be scalable and easy to maintain.
+
 
 For any questions or issues, feel free to reach out to the project maintainers.
