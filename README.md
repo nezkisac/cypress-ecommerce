@@ -25,6 +25,7 @@ This project contains automated test scripts for an e-commerce application, focu
 ├── cypress.config.js               # Cypress configuration file
 ├── package.json                    # Project dependencies and scripts
 └── README.md                       # Project documentation
+```
 
 **Setup Instructions**
 *Prerequisites*
