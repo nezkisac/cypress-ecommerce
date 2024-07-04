@@ -38,6 +38,24 @@ This project contains automated test scripts for an e-commerce application, focu
 
 **Running Tests Locally**
 
+### Installation from GitHub
+- open terminal
+
+- git clone https://github.com/nezkisac/cypress-ecommerce.git
+
+- cd ./cypress-ecommerce
+
+- npm install
+
+### Installation from Zip file
+
+- extract the zip file
+
+- open the folder ./cypress-ecommerce-master/cypress-ecommerce-master  with terminal
+
+- npm install
+
+
 You can run the Cypress tests in interactive mode or headless mode.
 
 **Interactive Mode:**  npx cypress open
